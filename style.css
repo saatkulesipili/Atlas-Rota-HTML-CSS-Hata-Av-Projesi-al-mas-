@@ -93,9 +93,9 @@ h1, h2, h3 {
 .navbar {
   position: sticky;
   top: 0;
-  /* BUG 13: "z-idnex" yazim hatasi, dogrusu "z-index".
+  /*? BUG 13: "z-idnex" yazim hatasi, dogrusu "z-index".
      Navbar diger icerigin altinda kalabilir. */
-  z-idnex: 10;
+  z-index: 10;
   background: var(--sand);
   border-bottom: 1px solid rgba(0,0,0,0.08);
   padding: 18px 0;
