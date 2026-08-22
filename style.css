@@ -117,11 +117,14 @@ h1, h2, h3 {
 .navbar__logo span { color: var(--forest); }
 
 .navbar__links {
+  display: flex;
   list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
   gap: 28px;
   /* BUG 7: "dispaly" yazim hatasi, dogrusu "display".
      Menu ogeleri yan yana degil alt alta gorunur. */
-  dispaly: flex;
+  
 }
 
 .navbar__links a {
