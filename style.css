@@ -168,7 +168,12 @@ h1, h2, h3 {
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(27,27,27,0.15) 0%, rgba(27,27,27,0.75) 100%);
+  /* background: linear-gradient(
+    180deg,
+    rgba(27,27,27,0.15) 0%,
+    rgba(27,27,27,0.75) 100%
+  ); */
+  /* background: linear-gradient(180deg, rgba(27,27,27,0.15) 0%, rgba(27,27,27,0.75) 100%); */
 }
 
 .hero__content {
