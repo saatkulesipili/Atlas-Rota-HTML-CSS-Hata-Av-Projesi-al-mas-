@@ -83,7 +83,7 @@ h1, h2, h3 {
   background: var(--gold);
   /* BUG 5: "colr" gecerli bir CSS ozelligi degil, "color" olmali.
      Buton metni gorunmez / varsayilan renkte kalir. */
-  colr: #fff;
+  color: #fff;
 }
 
 /* =========================================================
