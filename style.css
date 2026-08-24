@@ -329,7 +329,11 @@ h1, h2, h3 {
    Tarayici bunu "background: var(--forest) color: var(--white)"
    olarak tek bir (gecersiz) deger sanir; hem arka plan hem de
    yazi rengi uygulanmaz. */
-.contact { padding: 120px 0; background: var(--forest) color: var(--white); }
+.contact { 
+  padding: 120px 0; 
+  background: var(--forest);
+  color: var(--white);
+}
 
 .contact__grid {
   display: grid;
