@@ -257,7 +257,7 @@ h1, h2, h3 {
 .route-card__body {
   /* BUG 6: "20" birimsiz, gecerli bir CSS uzunluk degeri degil.
      Dogrusu "20px". Padding uygulanmaz. */
-  padding: 20;
+  padding: 20px;
 }
 
 .route-card__body h3 {
