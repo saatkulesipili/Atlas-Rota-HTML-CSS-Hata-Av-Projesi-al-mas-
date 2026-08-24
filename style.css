@@ -282,7 +282,7 @@ h1, h2, h3 {
   color: var(--forest);
   /* BUG 9: "#12x45" gecersiz bir hex renk kodu (x karakteri
      hex'te yok). Rozetin arka plani uygulanmaz. */
-  background: #12x45;
+  background: var(--gold);
   border: 1px solid var(--forest);
   border-radius: 999px;
   padding: 6px 12px;
